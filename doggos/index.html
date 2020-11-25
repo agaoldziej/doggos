@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Create your own pet!</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="savedDogs.css">
+  </head>
+  <body>
+    <h1 class="text-center">Create your own loving pet!</h1>
+    <h3 class="text-center">Cats and dogs and others!</h3>
+    <p class="text-center">I like dogs? What pets do you like?</p>
+
+    <div class="container">
+      <img
+        class="dog-photo"
+        src="https://external-preview.redd.it/utrj6QRPOuR6MGm5rAQlDJG-69F1hoOpU2rmWmFyIvQ.jpg?auto=webp&s=e043dacc412b9d6a666482a8983dc4e753b15303"
+        alt="My dog"
+      />
+      <input class="dog-name" placeholder="His name is: " />
+      <label for="trait">
+        And he is:
+        <select id="trait">
+          <option value="funny">Funny</option>
+          <option value="loud">Loud</option>
+          <option value="smelly">Smelly</option>
+          <option value="loving">Loving</option>
+          <option value="derpy">Derpy</option>
+          <option value="fluffy">Fluffy</option>
+          <option value="goodboy">A Good Boy</option>
+        </select>
+      </label>
+      <div>
+        <button class="wonderful-pet">Wonderful pet!</button>
+        <button class="save">Save pet!</button>
+      </div>  
+    </div>
+    <button id="clear-all">Clear all doggos</button>
+    <div class="saved-dogs-container">
+
+    </div>
+    <script src="main.js"></script>
+    <script src="doggo.js"></script>
+  </body>
+</html>

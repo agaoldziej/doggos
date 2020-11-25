@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  background-color: rgb(109, 180, 235);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin-bottom: 16px;
+}
+
+
+/* To jest mój kontener - ten kod nie będzie interpretowany przez przeglądarkę 
+to tylko komentarz */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-width: 10px;
+  border-color: yellow;
+  border-style: solid; */
+  border: 10px rgb(25, 0, 255) solid;
+  /* margin: 32px 16px 48px 64px; */
+  padding-top: 32px;
+  padding-bottom: 50px;
+}
+
+#trait {
+  background-color: thistle;
+  color: slateblue;
+  font-size: 16px;
+  margin: 16px 0;
+}
+
+button {
+  background-color: rgb(151, 36, 218);
+  border: 0;
+  padding: 8px 6px;
+  border: 4px rgb(255, 0, 200) solid;
+  margin: 16px;
+  color: white;
+  font-size: large;
+}
+
+.save {
+  width: 150px;
+  transition: width 0.75s;
+}
+
+.save:hover {
+  color: crimson;
+  cursor: pointer;
+  width: 300px;
+}
